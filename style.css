@@ -703,6 +703,23 @@ a[href^="tel:"] { white-space: nowrap; }
 .site-footer a { color: var(--ink); font-weight: 500; text-decoration-color: var(--gold); text-underline-offset: 3px; }
 .site-footer .f-copy { margin-top: 8px; font-size: .85rem; }
 
+/* קרדיט עדין למעצבת */
+.site-footer .f-credit {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  gap: 2px 14px;
+  max-width: 520px;
+  margin: 18px auto 0;
+  padding-top: 14px;
+  border-top: 1px solid var(--gold-l);
+  font-size: .8rem;
+  line-height: 1.6;
+}
+.site-footer .f-credit img { width: 18px; height: 18px; }
+.site-footer .f-credit b { font-weight: 600; color: var(--ink); }
+
 /* =========================================================
    Lightbox
    ========================================================= */
