@@ -302,6 +302,12 @@ const PHONE_TEL = "0548411733";
     }
   });
 
+  /* ---------- מייל מוסתר מבוטים ----------
+     הכתובת לא כתובה בקוד בגלוי – היא נבנית כאן מחלקים מקודדים */
+  document.querySelectorAll(".js-mail").forEach(function (el) {
+    try { el.textContent = atob(el.dataset.a) + "@" + atob(el.dataset.b); } catch (e) { /* משאירים ריק */ }
+  });
+
   /* ---------- שנה בפוטר ---------- */
   document.getElementById("year").textContent = new Date().getFullYear();
 })();
