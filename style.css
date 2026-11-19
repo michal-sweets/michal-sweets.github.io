@@ -245,6 +245,29 @@ button { font: inherit; color: inherit; }
   font-size: .95rem;
   letter-spacing: .03em;
 }
+/* תגית כשרות */
+.kosher {
+  position: relative;
+  display: inline-flex;
+  align-items: center;
+  gap: 10px;
+  margin-top: 18px;
+  padding: 7px 20px;
+  background: var(--white);
+  border: 1px solid var(--gold);
+  border-radius: 999px;
+  font-size: .98rem;
+  font-weight: 500;
+  color: var(--ink);
+}
+.kosher b {
+  width: 7px;
+  height: 7px;
+  background: var(--gold);
+  transform: rotate(45deg);
+  flex: none;
+}
+
 .hero-actions {
   position: relative;
   display: flex;
@@ -701,6 +724,7 @@ a[href^="tel:"] { white-space: nowrap; }
 }
 .site-footer .f-name { color: var(--ink); font-size: 1.15rem; font-weight: 500; }
 .site-footer a { color: var(--ink); font-weight: 500; text-decoration-color: var(--gold); text-underline-offset: 3px; }
+.site-footer .f-kosher { color: var(--ink); font-weight: 500; }
 .site-footer .f-copy { margin-top: 8px; font-size: .85rem; }
 
 /* קרדיט עדין למעצבת */
