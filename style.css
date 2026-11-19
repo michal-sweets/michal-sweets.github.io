@@ -698,6 +698,18 @@ a[href^="tel:"] { white-space: nowrap; }
   align-items: center;
   text-align: center;
 }
+/* החותמת של העסק */
+.seal {
+  width: 140px;
+  height: 140px;
+  margin: 0 auto 22px;
+  border-radius: 50%;
+  object-fit: cover;
+  border: 5px solid var(--white);
+  box-shadow: 0 0 0 1px var(--gold-l), var(--shadow);
+}
+@media (min-width: 768px) { .seal { width: 160px; height: 160px; } }
+
 .closing-text p { margin-top: 18px; color: var(--soft); font-size: 1.06rem; }
 .closing-text .sig {
   margin-top: 12px;
