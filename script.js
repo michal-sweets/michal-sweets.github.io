@@ -2,7 +2,7 @@
    הגדרות – כאן מדביקים את מפתח ה-Web3Forms
    (מקבלים אותו בחינם ב-https://web3forms.com)
    ========================================================= */
-const WEB3FORMS_ACCESS_KEY = "2a6aa200-4e12-4274-ab76-bb9b56afc678";
+const WEB3FORMS_ACCESS_KEY = "PASTE_KEY_HERE";
 
 const WEB3FORMS_URL = "https://api.web3forms.com/submit";
 const PHONE_DISPLAY = "054-8411733";
@@ -226,7 +226,7 @@ const PHONE_TEL = "0548411733";
   }
 
   function showSuccess() {
-    showStatus("success", "תודה רבה! הפנייה נשלחה בהצלחה.", "נחזור אליכם בהקדם לתיאום הפרטים.", false);
+    showStatus("success", "תודה רבה! הפנייה נשלחה בהצלחה.", "נחזור אליכם תוך 24 שעות לתיאום הפרטים.", false);
   }
 
   function showError() {
